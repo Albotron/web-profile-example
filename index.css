@@ -1,7 +1,12 @@
-h1, h2 {
-    display: block;
+ul::after {
+    content: "";
     clear: both;
-    width: 100%;
+    display: table;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 li {
@@ -10,7 +15,8 @@ li {
     border-right-color: #bbb;
     border-right-width: 1px;
     border-right-style: solid;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
    
 }
 
