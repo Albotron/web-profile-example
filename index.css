@@ -1,30 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  /* Optional: add a small left/right padding for breathing room on all sides */
-  padding-left: 1rem;   /* or 15px, 20px, whatever matches your second screenshot */
-  padding-right: 1rem;
-  /* If you want the content centered with max width later, you can add: */
-  /* max-width: 1200px; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-}
-
-ul::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 ul {
     margin-bottom: 20px;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
+    width: 100%;
 }
 
 li {
@@ -35,12 +15,14 @@ li {
     border-right-style: solid;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+   
 }
 
 li a {
     display: block;
     color: white;
-    padding: 20px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     background-color: crimson;
